@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Моя первая веб-страница</title>
     <meta charset="utf-8">
 </head>
@@ -43,6 +44,26 @@
     </h2>
     <p><a href="http://www.msiter.ru">MSITER.RU</a></p>
     <img src="http://www.msjc.edu/SB70/PublishingImages/Multimedia%20pic.%20%209.16.13.jpg" width="543" height="375" alt="MSITER.RU" />
-    <p></p><a href="#start">В начало</a></p>
+    <div>
+        <p>Name</p>
+        <input type="text" name="Standard text box" value="Input your name" />
+    </div>
+    <div>
+        <p>Password</p>
+        <input type="password" name="Password" />
+    </div>
+    <div>
+        <p>Sex</p>
+        <label><input type="radio" name="Radiobutton1" checked="checked" />Male</label>
+        <label><input type="radio" name="Radiobutton1" />Female</label>
+    </div>
+    <div>
+        <p>Change</p>
+        <input type="radio" name="Radiobutton2" checked="checked" />
+        <input type="radio" name="Radiobutton2" />
+        <input type="radio" name="Radiobutton2" />
+    </div>
+    <textarea rows="5" cols="20">Поле для ввода текста</textarea>
+    <p><a href="#start">В начало</a></p>
 </body>
 </html>
